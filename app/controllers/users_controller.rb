@@ -20,6 +20,9 @@ class UsersController < ApplicationController
         end
     end
 
+    def test 
+        render "Hello, World!"
+    end
     private
 
     def user_params
